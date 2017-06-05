@@ -119,5 +119,11 @@ public class RegistrationFormPage
         return element;
     }
 
+	public static WebElement raj_verify_Error(WebDriver driver)
+    {
+        element =  driver.findElement(By.id("errormsg_0_GmailAddress"));
+
+        return element;
+    }
 
 }
