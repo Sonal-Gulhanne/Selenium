@@ -120,4 +120,10 @@ public class RegistrationFormPage
     }
 
 
+ public static WebElement verify_Error3(WebDriver driver)
+    {
+        element =  driver.findElement(By.id("errormsg_0_GmailAddress"));
+
+        return element;
+    }
 }
